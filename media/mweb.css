@@ -1,0 +1,243 @@
+html{
+
+}
+
+body{
+	
+} 
+
+a{
+  color:inherit;
+}
+ 	
+/*class*/
+
+.trademark{
+	font-family: "Tahoma", Geneva, sans-serif;
+	font-weight: bold;
+	color: #f7f7f7;
+    text-align: right;
+}
+
+.headerbg{
+	background-image: url(homebg.jpg);
+    background-attachment: fixed;
+    background-size: 50%;
+}
+
+.navbar-resize{
+  height: 30px;
+}
+
+
+.header-fade {
+    opacity: 0.3;
+    transition: opacity .6s;
+}
+
+.header-fade:hover {
+    opacity: 1;
+}
+
+.header-logo{
+    margin-top: 20px;
+    font-family: "Tahoma", Geneva, sans-serif;
+    font-weight: bold;
+}
+
+.btnd{
+  border:none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+  background-color: black;
+  color: white;
+  font-family: serif;
+  font-size: 20px;
+  width: 100px;
+  height: 30px;
+  margin-left: 125px;
+  margin-top: 75px;
+}
+
+.btnd:hover{
+  transition: .9s;
+  background: transparent;
+  font-weight: bolder;
+  color:white;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.fpage{
+  font-size: 25px;
+}
+
+.btnl{
+  border:none;
+  border-radius: 5px;
+  text-align: center;
+  display:inline-block;
+  color: black;
+  text-shadow: 1px 1px darkblue;
+  background: transparent;
+  font-family: serif;
+  font-size: 30px;
+  width: 100px;
+  height: 30px;
+  margin-left: 125px;
+  margin-top: 75px;
+  font-weight: bolder;
+
+}
+
+.btnl:hover{
+  transition: .9s;
+  background: transparent;
+  font-weight: bolder;
+  text-align: center;
+  color:white;
+  font-size: 50px;
+  text-shadow: 1px 1px black;
+  cursor: pointer;
+}
+
+.align-form{
+  margin-left: 80px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.lpt-align{
+  margin-right: 80px;
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: 1px 1px black;
+  margin bottom: 80px;
+  text-align: right;
+}
+
+.lpt-sub{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Tahoma", Geneva, sans-serif;
+  margin-right: 80px;
+  text-align:right;
+}
+
+.lpdesc{
+  margin-right: 50px;
+  font-family: "Tahoma", Geneva, sans-serif;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+/*id*/
+
+
+#btnpos{
+  margin-left:180px;
+}
+
+#tposl{
+margin-left: 80px;
+margin-top: 50px;
+}
+
+
+#tposr{
+margin-top:-55px;
+margin-left: 500px;
+
+}
+
+#adminLI
+{
+  width: 366px;
+  height: 200px;
+  background-image:url("admin.gif");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+   margin-top: 70px;
+   margin-top: -300px;
+   margin-bottom: 50px;
+ 
+}
+#blueLI
+{
+  width: 366px;
+  height: 200px;
+  background-image:url("casual.gif");
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-size: auto 100%;
+  margin-top: 70px;
+  margin-top: -10px;
+
+}
+#redLI
+{
+  width: 366px;
+  height: 200px;
+  background-image:url("pro.gif");
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-size: auto 100%;
+   margin-top: 50px;
+
+}
+
+#left{
+  width: 366px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 40px;
+  background-image:url("login.gif");
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+#right{
+  width: 366px;
+  height: 200px;
+  margin-top: -200px;
+  margin-left: 550px;
+  background-image:url("signup.gif");
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+#LIleft
+{
+  width: 366px;
+  height: 200px;
+  background-image:url("casual.gif");
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-size: auto 100%;
+  margin-top: -10px;
+
+}
+#LIright
+{
+  width: 366px;
+  height: 200px;
+  background-image:url("pro.gif");
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-size: auto 100%;
+  margin-top: -200px;
+  margin-left: 550px;
+}
+
+#tposLI{
+margin-left: 130px;
+margin-top: 50px;
+}
+
+
+#tposRI{
+margin-top:-55px;
+margin-left: 700px;
+
+}
